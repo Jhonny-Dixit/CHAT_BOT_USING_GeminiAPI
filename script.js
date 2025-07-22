@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // IMPORTANT: Replace with your own API key when running locally
-            const apiKey = "AIzaSyCgAxQcV3yjQmeE-UNmqKV1ruZH5LtKfh4"; 
+            const apiKey = "YOUR_API"; 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
             const response = await fetch(apiUrl, {
