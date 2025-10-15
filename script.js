@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
 
-    // Stores the conversation history for the API call
     let chatHistory = [];
 
     // Function to add a message to the chat log
@@ -117,3 +116,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
